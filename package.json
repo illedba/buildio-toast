@@ -1,15 +1,15 @@
 {
-  "name": "buildio-toast", 
-  "version": "0.1.0", 
+  "name": "buildio-toast",
+  "version": "0.1.0",
   "description": "A lightweight toast notification library for React.",
-  "main": "./dist/index.js", 
-  "module": "./dist/index.esm.js", 
-  "types": "./dist/index.d.ts", 
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "prepublishOnly": "npm run build" 
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -35,12 +35,19 @@
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0"
   },
-  "files": ["dist"],
-  "keywords": ["react", "toast", "notifications", "mui"],
-  "author": "Your Name <your.email@example.com>",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "toast",
+    "notifications",
+    "mui"
+  ],
+  "author": "Zack Miel zackmielzack@gmail.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/buildio-toast.git"
+    "url": "https://github.com/illedba/buildio-toast.git"
   }
 }
